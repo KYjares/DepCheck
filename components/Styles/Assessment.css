@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); /* Dont forget to put this on all the stylesheet that you have (CSS/SASS) */
+
+#title {
+  color: white;
+  background-color: gray;
+  padding: 1% 0px;
+  margin-bottom: 2%;
+  margin-top: -3%;
+  margin-left: -1.3%;
+  padding-top: 2%;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  width: 102.7%;
+}
+
+.container {
+  border-style: solid;
+  border-color: rgb(202, 202, 202);
+  border-radius: 25px;
+  border-width: 2px;
+  box-shadow: 0 4px 6px -6px black;
+  width: 100%;
+  margin-left: -1%;
+}
+
+#titleText {
+  padding-left: 4.9%;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#questionItem {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  margin-bottom: 3%;
+}
+
+.questionNumber {
+  padding-top: 1.25%;
+  padding-right: 3%;
+  font-weight: bold;
+  width: 15%;
+}
+
+.question {
+  padding-top: 1.25%;
+  width: 47%;
+}
+
+#answers {
+  display: flex;
+  flex-direction: column;
+}
+
+#answer {
+  float: left;
+  margin: 4px;
+  width: 220px;
+  background-color: #efefef;
+  border: 1px solid #d0d0d0;
+  overflow: auto;
+}
+
+#answerItem {
+  margin: 4px;
+  margin-bottom: -7%; /*change to -7 if question is flex row, -1 otherwise*/
+  margin-left: 50%;
+}
+
+#answerItem .first {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#answerItem .last {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /*margin-top: -0.001%; add if question is not flex row*/
+}
+
+#answerItem label span {
+  text-align: left;
+  font-size: 16px;
+  padding: 8px 0px;
+  padding-left: 6%;
+  display: block;
+}
+
+#answerItem label input {
+  position: absolute;
+  display: none;
+}
+
+#answerItem input:checked + span {
+  background-color: rgb(27, 178, 147);
+  color: #f7f7f7;
+}
+
+#answerItem span {
+  background-color: rgb(240, 240, 240);
+  color: rgb(111, 111, 111);
+}
+
+.containerElements {
+  padding-top: 3%;
+}
+
+#assessmentBody {
+  padding-left: 7%;
+  margin-bottom: 7%;
+}
+
+.submit {
+  /* border-radius: 4px; */
+  margin-left: 16% !important;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  background: rgb(27, 178, 147) !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  padding: 24px !important;
+  outline: 0 !important;
+  font-family: "Poppins", sans-serif !important;
+  letter-spacing: normal;
+  width: 70%;
+}
+
+#results {
+  display: flex;
+  flex-direction: row;
+}
+
+#emotionResult {
+  width: 25%;
+}
+
+#moodEnhancersResult {
+  padding: 1%;
+  padding-top: 5%;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); /* Dont forget to put this on all the stylesheet that you have (CSS/SASS) */
+
+.flexNav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1%;
+  padding-left: 3%;
+  margin-bottom: 2.5%;
+  box-shadow: 0 4px 6px -6px black;
+}
+
+#user {
+  position: absolute;
+  padding-top: 0.45%;
+  left: 65%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#logout {
+  position: absolute;
+  padding-top: 0.45%;
+  left: 90%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#currentPage {
+  font-size: 20px;
+  font-weight: 600;
+  color: #696969;
+}

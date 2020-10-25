@@ -1,0 +1,112 @@
+#body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.addContact {
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  background: rgb(0, 124, 81) !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  padding: 1% !important;
+  margin: 0.5% 3.3% !important;
+  outline: 0 !important;
+  font-family: "Poppins", sans-serif !important;
+  letter-spacing: 0.01em !important;
+  width: 10%;
+  margin-bottom: 2% !important;
+}
+
+.deleteContact {
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  background: rgb(228, 33, 33) !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  padding: 1% !important;
+  padding-left: 2.1% !important;
+  margin: 0.5% 3.3% !important;
+  outline: 0 !important;
+  font-family: "Poppins", sans-serif !important;
+  letter-spacing: 0.01em !important;
+  width: 2%;
+  margin-bottom: 2% !important;
+}
+
+.friendContainer {
+  border-style: solid;
+  border-color: rgb(202, 202, 202);
+  border-radius: 25px;
+  border-width: 2px;
+  box-shadow: 0 4px 6px -6px black;
+  width: 90%;
+  margin-bottom: 2%;
+}
+
+.friendInfo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4.2%;
+  margin-top: 1%;
+}
+
+.infoHeader {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.headerField {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7%;
+  color: #9c9c9c94;
+  font-size: 15px;
+}
+
+#emailHeader {
+  margin-left: 9%;
+}
+
+#contactHeader {
+  margin-left: 20.3%;
+}
+
+#relationHeader {
+  margin-left: 12.7%;
+}
+
+.emergencyContactDetails {
+  flex-direction: column;
+  width: 25.6%;
+  margin-top: 0.5%;
+}
+
+#emergencyContactName {
+  margin-bottom: -2%;
+  font-weight: 700;
+}
+
+#emergencyContactAddress {
+  color: #9c9c9c94;
+  font-size: 12px;
+}
+
+#emailInfo {
+  width: 26.4%;
+  margin-top: 1%;
+}
+
+#contactInfo {
+  width: 26.9%;
+  margin-top: 1%;
+  font-weight: 700;
+}
+
+#relationInfo {
+  margin-top: 1%;
+  width: 7.9%;
+}

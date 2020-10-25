@@ -1,0 +1,77 @@
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+.sidebar {
+  height: 100%;
+  width: 4%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #007c51 !important;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 4px 0 6px -6px black;
+}
+
+/* The navigation menu links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+#dashboardPage,
+#friendsPage,
+#assessmentPage {
+  margin-left: 4%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+.image {
+  height: 90%;
+  width: 80%;
+  padding-bottom: 40%;
+  margin-left: -3%;
+}
+
+#dashboard {
+  margin-top: 130%;
+}
+
+#assessment {
+  height: 70%;
+  width: 70%;
+  padding-left: 10%;
+}
+
+#logoImage {
+  height: 100%;
+  width: 150%;
+  margin-left: -20%;
+  margin-top: -30%;
+}
+
+.container {
+  border-style: solid;
+  border-color: rgb(202, 202, 202);
+  border-radius: 25px;
+  border-width: 2px;
+  box-shadow: 0 4px 6px -6px black;
+  width: 90%;
+  padding-right: -10%;
+}

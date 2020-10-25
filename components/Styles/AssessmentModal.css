@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); /* Dont forget to put this on all the stylesheet that you have (CSS/SASS) */
+
+#titleText {
+  padding-left: 4.9%;
+  font-weight: bold;
+  font-size: 22px;
+  z-index: -1;
+}
+
+.container {
+  border-style: solid;
+  border-color: rgb(202, 202, 202);
+  border-radius: 25px;
+  border-width: 2px;
+  box-shadow: 0 4px 6px -6px black;
+  width: 100%;
+  margin-left: -1%;
+  padding: 0 -11%;
+}
+
+#questionItem {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  margin-bottom: 3%;
+}
+
+.questionNumber {
+  padding-top: 1.25%;
+  padding-right: 3%;
+  font-weight: bold;
+  width: 15%;
+}
+
+.question {
+  padding-top: 1.25%;
+  width: 47%;
+}
+
+#answers {
+  display: flex;
+  flex-direction: column;
+}
+
+#answer {
+  float: left;
+  margin: 4px;
+  width: 220px;
+  background-color: #efefef;
+  border: 1px solid #d0d0d0;
+  overflow: auto;
+}
+
+#answerItem {
+  margin: 4px;
+  margin-bottom: -7%; /*change to -7 if question is flex row, -1 otherwise*/
+  margin-left: 50%;
+}
+
+#answerItem label span {
+  text-align: left;
+  font-size: 16px;
+  padding: 8px 0px;
+  padding-left: 6%;
+  display: block;
+}
+
+#answerItem label input {
+  position: absolute;
+  display: none;
+}
+
+#answerItem input:checked + span {
+  background-color: rgb(27, 178, 147);
+  color: #f7f7f7;
+}
+
+#answerItem span {
+  background-color: rgb(240, 240, 240);
+  color: rgb(111, 111, 111);
+}
+
+.containerElements {
+  padding-top: 3%;
+}
+
+#assessmentBody {
+  padding-left: 7%;
+  margin-bottom: 7%;
+}
+
+.submit {
+  font-size: 16px;
+  font-weight: 600;
+  background: rgb(27, 178, 147);
+  color: white;
+  border: 0;
+  /* border-radius: 4px; */
+  padding: 24px;
+  margin-left: 16%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  outline: 0;
+  width: 70%;
+}
+
+#closeButton {
+  width: 4%;
+  position: fixed;
+  z-index: 1;
+  padding-top: 2%;
+  right: 3%;
+}
